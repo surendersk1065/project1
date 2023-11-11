@@ -1,0 +1,91 @@
+*{
+    margin:0;
+
+}
+body{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.descrip{
+    border: 2px solid black;
+    padding:20px;
+    height:300px;
+    background-color: blueviolet;
+
+}
+.descrip h1{
+    margin-bottom: 30px;
+}
+.register{
+    width:80vh;
+   margin:250px auto;
+   display: flex;
+
+}
+.form{
+    width:500px;
+    background-color:white;
+    color:black;
+    padding:10px;
+    border:1px solid black;
+}
+.form h1{
+    margin-bottom:10px;
+    text-align: center;
+}
+.form{
+    font-size:1.3em;
+
+}
+.form .textlab{
+    display: block;
+}
+
+.form #search,#password,#email{
+   width:100%;
+   padding:3px 5px;
+   box-sizing: border-box;
+   font-size:0.8em;
+   margin:3px 0px ;
+   border:1px solid black;
+   border-radius: 8px;
+}
+.form .radio{
+    accent-color: red;
+    margin:5px 0px
+}
+.form .btn{
+    text-align: center;
+    margin:20px 0px 0px;
+}
+button{
+    font-size: 1em;
+    padding:4px;
+    background-color:bisque;
+    border:2px solid black;
+    border-radius: 8px;
+}
+input:focus{
+    background-color: #83c5be;
+}
+#male,#female,button:hover{
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: yellow;
+}
+@media (max-width:532px){
+    .register{
+        width:60vh;
+    }
+    .descrip{
+        font-size:0.8em
+        
+    }
+    .form{
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,767 @@
+body,h2,p,h3{
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.landing header{
+    display:flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+
+}
+.sticky{
+    position: sticky;
+    top:0px;
+}
+.search button:hover{
+    cursor: pointer;
+}
+#logo{
+    flex:2;
+    font-size:2em;
+    color:var(--black);
+    width:100%;
+}
+nav {
+   flex:1;
+   display:flex;
+}
+nav a{
+    flex:1;
+    justify-content: center;
+    color:var(--violet);
+    text-decoration: none;
+}
+@media (max-width:1000px){
+    nav a{
+        flex-wrap: wrap;
+        margin:10px;
+    }
+    #logo,i{
+        font-size:1.4em;
+    }
+    .landing header{
+        padding:10px;
+    }
+}
+
+h2 i{
+    margin-right:10px;
+}
+i{
+    margin-right:5px;
+    margin-left: 10px;
+  
+}
+nav a:hover{
+    text-decoration: underline;
+    color:black;
+    transform: scale(1.1);
+    
+}
+.search input{
+    width:500px;
+    height:40px;
+    display:flex;
+    font-size:1.2em;
+    padding:16px;
+}
+.search{
+    margin:16px;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+button{
+width:40px;
+background-color: white;
+}
+.mobpage{
+    background-color:white;
+    display: flex;
+
+
+}
+h3{
+    0
+}
+.sidetab{
+    width:250px;
+    padding:10px;
+}
+.rating,.ram,.storage,.offers{
+    margin:10px;
+}
+.sidetab h3{
+    margin-bottom: 6px;
+}
+.mobile1{
+    width:100%;
+    background-color: white;
+    padding-bottom:10px;
+    display: flex;
+    
+}
+.mobdes{
+    margin-left:300px;
+    margin-top: 80px;
+}
+.mobile1 ul{
+    margin-top:10px;
+}
+.mobile1 button{
+    width:100px;
+    height:40px;
+    margin-right:20px;
+    background-color: beige;
+    padding:5px;
+
+}
+.mobile1 button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+@media (max-width:955px){
+    .mobdes{
+        margin-left:10px;
+        margin-top:6px;
+    }
+    .mobile1 img{
+        
+    }
+    .mobpage{
+        font-size:0.8em;
+        margin:20px;
+    }
+    .mobile1{
+        flex-direction: column;
+    }
+    .rating,.ram,.storage,.offers{
+        margin:0px;
+    }
+}
+.rating i{
+    font-size:1em;
+    margin: 2px;
+}
+.speakhead{
+    margin-bottom: 10px;
+}
+.speakpro{
+    background-color: white;
+    padding:10px;
+}
+.speakpro h3{
+    margin-bottom: 5px;
+}
+#diwali{
+    margin-bottom: 5px;
+}
+.speak1{
+    width:250px;
+    padding:10px;
+    text-align: center;
+
+
+}
+.speakers{
+    display: flex;
+    justify-content: space-between;
+}
+.speak1 a,p{
+    margin: 5px 0px 6px;
+    text-decoration: none;
+}
+.casehead{
+    margin:10px 10px 20px;
+}
+.case{
+    display: flex;
+    justify-content: space-between;
+}
+.case1{
+    width:250px;
+    text-align: center;
+}
+.case1 a{
+    text-decoration: none;
+}
+.powhead{
+    margin:10px 10px 20px;
+}
+.powerbank{
+    display: flex;
+    justify-content: space-between;
+}
+.powerbank1{
+    width:250px;
+    text-align: center;
+}
+.powerbank1 a{
+    text-decoration: none;
+}
+@media(max-width:956px){
+    .case1 img{
+        width:100px;
+        height:100px;
+    }
+    .powerbank1 img{
+        width:100px;
+        height:100px;
+    }
+    .speak1 img{
+        width:100px;
+        height:100px;
+    }
+    .speak1,.case1,.powerbank1{
+        font-size: 0.8em;
+    }
+    .case1,.speak1,.powerbank1{
+        width:150px;
+    }
+    .speakers,.case,.powerbank{
+        flex-wrap: wrap;
+    }
+}
+.footer{
+    background-color: #1F1717;
+    color:#A9A9A9;
+    padding:10px;
+}
+.abouthead{
+    margin:0px 0px 8px;
+    text-align: center;
+    color: white;
+}
+.aboutus p{
+    text-align: center;
+}
+.conhead{
+    margin:0;
+    text-align: center;
+    margin:10px 0px 5px;
+    color:white;
+}
+.contact li{
+    list-style-type: none;
+    margin:5px;
+   
+   
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+
+}
+.contact a{
+    color: #A9A9A9;
+    text-decoration: none;
+    font-size:1.2em
+}
+.contact i{
+    margin-right:5px;
+    font-size: 1em;
+}
+.contact a:hover{
+    color: #F4BF96;
+    transform: scale(1.1);
+}
+.footer{
+    margin-top:20px;
+}
+.fashpage .sidetab1{
+    width:350px;
+    border:1px solid black;
+}
+.sidetab1 h2{
+    margin:5px 0px 5px 20px;
+}
+.sidetab1 h3{
+    margin:10px 0px 6px 20px;
+}
+.sidetab1 .checkbox{
+    margin:5px 0px 5px 25px;
+}
+.fashpage{
+    display: flex;
+}
+.tshirt{
+
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid black;
+}
+.shirt{
+    display: flex;
+    justify-content: space-between;
+}
+.dresspage{
+    width:100%;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+
+
+}
+.tshirt1,.shirt1{
+    width:250px;
+    height:300px;
+    text-align: center;
+}
+.shead,.thead{
+    display: flex;
+}
+.thead  p{
+    flex:1;
+    margin-left:20px;
+}
+.shead p{
+    flex:1;
+    margin-left:20px;
+}
+.thead  button{
+    width:80px;
+    margin:5px 100px 10px 0px;
+    background-color: deepskyblue;
+    color: white;
+}
+.shead  button{
+    width:80px;
+    margin:5px 100px 10px 0px;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.dresspage button:hover{
+    cursor: pointer;
+}
+@media (max-width:1222px){
+    .tpage{
+
+
+        font-size:0.8em;
+    }
+    .tshirt{
+        flex-wrap: wrap;
+    }
+    .tshirt1 img{
+        width:100px;
+        height:100px;
+        margin:1px;
+    }
+    .tshirt1{
+        height:170px;
+        width:100px;
+    }
+    .shirttpage{
+
+
+        font-size:0.8em;
+    }
+    .shirt{
+        flex-wrap: wrap;
+    }
+    .shirt1 img{
+        width:100px;
+        height:100px;
+        margin:1px;
+    }
+    .shirt1{
+        height:190px;
+        width:100px;
+    }
+    .sidetab1 h2,h3{
+        margin:0px;
+    }
+    .sidetab1 .checkbox{
+        margin:0px;
+    }
+    .fashpage .sidetab1{
+        width:250px;
+    }
+    .tshirt1,.shirt1{
+        margin:5px;
+    }
+
+}
+.stickygro .landing header{
+    background-color: lightgreen;
+}
+.poster1{
+    background-image: url("gro1.jpg");
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    margin:10px 0px 10px;
+}
+.care{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.shampoo{
+    text-align: center;
+    margin:20px 0px 10px;
+}
+.grohead{
+    display: flex;
+    margin:20px 0px 20px;
+}
+.grohead h2{
+    flex:1;
+}
+.grohead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.grohead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.hcarehead{
+    display: flex;
+    margin:20px 0px 20px;
+}
+.hcarehead h2{
+    flex:1;
+}
+.hcarehead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+
+}
+.hcarehead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.housecare{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.hitems{
+    width:200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.hitems button{
+    width:80%;
+    font-size:1em;
+}
+.hitems button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.veghead{
+    display: flex;
+    margin:20px 0px 20px;
+}
+.veghead h2{
+    flex:1;
+}
+.veghead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.veghead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.vegetables{
+    display: flex;
+    justify-content: space-between;
+
+}
+.vitems{
+    width:200px;
+    text-align: center;
+    margin-bottom: 10px;;
+}
+.vitems button{
+    width:80%;
+    font-size:1em;
+}
+.vitems button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media (max-width:1024px){
+    .care .shampoo img{
+        width:150px;
+        height:150px;
+    }
+    .care{
+        flex-wrap: wrap;
+    }
+    .care .shampoo{
+        font-size:0.8em;
+    }
+    .housecare .hitems img{
+        width:150px;
+        height:150px;
+    }
+    .housecare{
+        flex-wrap: wrap;
+    }
+    .vegetables .vitems img{
+        width:150px;
+        height:150px;
+    }
+    .vegetables{
+        flex-wrap: wrap;
+    }
+}
+.tvhead{
+    display: flex;
+    margin:20px 0px 20px;
+}
+.tvhead h3{
+    flex:1;
+}
+.tvhead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.tvhead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.television{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.tv{
+    width:220px;
+    text-align: center;
+}
+.tv button{
+    width:80%;
+    font-size:1em;
+}
+.tv button:hover{
+    transform: scale(1.1);
+}
+.washhead{
+    display: flex;
+    margin:20px 0px 20px;
+}
+.washhead h3{
+    flex:1;
+}
+.washhead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.washhead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.machine{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.wash{
+    width:220px;
+    text-align: center;
+}
+.wash button{
+    width:80%;
+    font-size:1em;
+}
+.wash button:hover{
+    transform: scale(1.1);
+}
+
+
+.achead{
+    display: flex;
+    margin:20px 0px 20px;
+}
+.achead h3{
+    flex:1;
+}
+.achead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.achead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.conditioner{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ac{
+    width:220px;
+    text-align: center;
+}
+.ac button{
+    width:80%;
+    font-size:1em;
+}
+.ac button:hover{
+    transform: scale(1.1);
+}
+@media (max-width:997px){
+    .television .tv img{
+        width:150px;
+        height:150px;
+    } 
+    .television{
+        flex-wrap: wrap;
+    }
+    .machine .wash img{
+        width:150px;
+        height:150px;
+    }
+    .machine{
+        flex-wrap: wrap;
+    }
+    .wash{
+        margin-bottom: 10px;
+    }
+    .conditioner .ac img{
+        width:150px;
+        height:150px;
+    }
+    .conditioner{
+        flex-wrap: wrap;
+    }
+}
+.househead{
+    display: flex;
+}
+.hhead{
+    flex:1;
+}
+.househead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.househead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.household{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin:20px 0px 20px 5px;
+}
+.house{
+    width:200px;
+    text-align: center;
+}
+
+
+.fhead{
+    display: flex;
+}
+.fheadh{
+    flex:1;
+}
+.fhead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.fhead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.furnishing{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin:20px 0px 20px 5px;
+}
+.fur{
+    width:200px;
+    text-align: center;
+}
+
+
+.decorhead{
+    display: flex;
+}
+.dhead{
+    flex:1;
+}
+.decorhead button{
+    width:80px;
+    padding:5px;
+    background-color: deepskyblue;
+    color: white;
+}
+.decorhead button:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.decoring{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin:20px 0px 20px 5px;
+}
+.decor{
+    width:200px;
+    text-align: center;
+}
+@media (max-width:976px){
+    .household .house img{
+        width:100px;
+        height:100px;
+    }
+    .house{
+        font-size:0.8em;
+    }
+    .household{
+        flex-wrap: wrap;
+    }
+
+    .furnishing .fur img{
+        width:100px;
+        height:100px;
+    }
+    .fur{
+        font-size:0.8em;
+    }
+    .furnishing{
+        flex-wrap: wrap;
+    }
+
+    .decoring .decor img{
+        width:100px;
+        height:100px;
+    }
+    .decor{
+        font-size:0.8em;
+    }
+    .decoring{
+        flex-wrap: wrap;
+    }
+}

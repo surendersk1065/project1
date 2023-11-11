@@ -1,0 +1,257 @@
+:root{
+    --black:#1F1717;
+    --pink:#CE5A67;
+    --rose:#F4BF96;
+    --skin:#FCF5ED;
+    --violet:#3A4D39;
+}
+body,h2,p,h3{
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.landing header{
+    display:flex;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 20px;
+
+}
+.sticky{
+    position: sticky;
+    top:0px;
+}
+.search button:hover{
+    cursor: pointer;
+}
+#logo{
+    flex:2;
+    font-size:2em;
+    color:var(--black);
+    width:100%;
+}
+nav {
+   flex:1;
+   display:flex;
+}
+nav a{
+    flex:1;
+    justify-content: center;
+    color:var(--violet);
+    text-decoration: none;
+}
+@media (max-width:1000px){
+    nav a{
+        flex-wrap: wrap;
+        margin:10px;
+    }
+    #logo,i{
+        font-size:1.4em;
+    }
+    .landing header{
+        padding:10px;
+    }
+}
+
+h2 i{
+    margin-right:10px;
+}
+i{
+    margin-right:5px;
+    margin-left: 10px;
+  
+}
+nav a:hover{
+    text-decoration: underline;
+    color:black;
+    transform: scale(1.1);
+    
+}
+.search input{
+    width:500px;
+    height:40px;
+    display:flex;
+    font-size:1.2em;
+    padding:16px;
+}
+.search{
+    margin:16px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+
+}
+button{
+width:40px;
+background-color: white;
+}
+.product{
+    background-color: #1F1717;
+    padding:6px;
+    
+}
+.product ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+ 
+    
+}
+.product a{
+   color:var(--skin);
+   text-decoration: none;
+}
+@media (max-width:960px){
+    .product ul{
+        flex-wrap: wrap;
+    }
+    .product a{
+        margin:10px;
+        margin-top:10px;
+    }
+    .product li{
+        margin-top:10px;
+        justify-content: center;
+    }
+}
+.product a:hover{
+    color:yellow;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+.poster{
+    font-size:1.4em;
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+.line1{
+    color:darkblue
+}
+.line2{
+    margin-left:10px;
+}
+.image{
+    background-color: #1F1717;
+    background-image: url("furniture.jpg");
+    background-position: center;
+    background-size: cover;
+    height:50vh;
+    
+}
+h3{
+    margin:0;
+}
+
+.image h2,h3{
+    margin-left:220px;
+    font-size:2em;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media(max-width:835px){
+    .image h2,h3{
+        margin-left:70px;
+    }
+}
+.mobilehead{
+    margin:10px;
+}
+.mobile{
+    background-color: beige;
+    display:flex;
+    justify-content: space-around;
+    gap:10px;
+}
+.box{
+    margin-top:10px;
+    background-color:#A9A9A9;
+    width:200px;
+    padding:10px;
+    text-align: center;
+    border:3px solid black;
+    border-radius: 8px;
+}
+.cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5px;
+}
+.box button{
+    width:100%;
+    margin:5px;
+    padding:10px;
+    font-size:1.2em;
+    background-color: #3A4D39;
+    color:white;
+}
+.box button:hover{
+    background-color: #F4BF96;
+    color:black;
+    transform: scale(1.1);
+    transition-delay: 0.5s;
+    cursor: pointer;
+}
+@media (max-width:1190px) {
+    .mobile {
+        flex-wrap: wrap;
+    }
+    .mobilehead{
+        text-align: center;
+    }
+}
+.footer{
+    background-color: #1F1717;
+    color:#A9A9A9;
+    padding:10px;
+}
+.abouthead{
+    margin:0px 0px 8px;
+    text-align: center;
+    color: white;
+}
+.aboutus p{
+    text-align: center;
+}
+.conhead{
+    margin:0;
+    text-align: center;
+    margin:10px 0px 5px;
+    color:white;
+}
+.contact li{
+    list-style-type: none;
+    margin:5px;
+   
+   
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+
+}
+.contact a{
+    color: #A9A9A9;
+    text-decoration: none;
+    font-size:1.2em
+}
+.contact i{
+    margin-right:5px;
+    font-size: 1em;
+}
+.contact a:hover{
+    color: #F4BF96;
+    transform: scale(1.1);
+}
+.footer{
+    margin-top:20px;
+}
+.mobile .box:hover{
+
+    cursor: pointer;
+}
